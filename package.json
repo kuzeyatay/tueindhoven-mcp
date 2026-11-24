@@ -1,0 +1,33 @@
+{
+  "name": "tueindhoven-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read your TU Eindhoven Canvas, TE Timetable, study plan and OSIRIS results through MCP.",
+  "license": "MIT",
+  "repository": "github:kuzeyatay/tueindhoven-mcp",
+  "bin": {
+    "tueindhoven-mcp": "dist/cli.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --import ./tests/offline.mjs --test tests/*.test.mjs",
+    "login": "node dist/cli.js login",
+    "verify": "node dist/verify.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "canvas-lms-mcp": "2.11.1",
+    "cheerio": "^1.2.0",
+    "ical.js": "^2.2.1",
+    "playwright-core": "^1.59.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "typescript": "~5.9.3"
+  }
+}
