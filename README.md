@@ -86,6 +86,6 @@ The live check launches a separate MCP server over stdio. It checks the signed-i
 
 ## Credits and license
 
-The Delft project provided the calendar expansion, confirmation store and configuration merge code. The Canvas catalog comes from Christian Bru's Canvas LMS MCP. The learner quiz implementation follows Instructure's Canvas API. [tudelft-mcp](https://github.com/danieltyukov/tudelft-mcp) · [canvas-lms-mcp](https://github.com/bruchris/canvas-lms-mcp) · [Canvas developer documentation](https://developerdocs.instructure.com/services/canvas) · [MIT license](LICENSE)
+A Delft project provided the calendar expansion, confirmation store and configuration merge code. The Canvas catalog comes from Christian Bru's Canvas LMS MCP. The learner quiz implementation follows Instructure's Canvas API. [tudelft-mcp](https://github.com/danieltyukov/tudelft-mcp) · [canvas-lms-mcp](https://github.com/bruchris/canvas-lms-mcp) · [Canvas developer documentation](https://developerdocs.instructure.com/services/canvas) · [MIT license](LICENSE)
 
-The TU/e wordmark identifies the university. Eindhoven University of Technology owns its branding. This project is independently maintained. [Wordmark source and attribution](https://commons.wikimedia.org/wiki/File:Eindhoven_University_of_Technology_logo_new.svg)
+!!!The TU/e wordmark identifies the university. Eindhoven University of Technology owns its branding. This project is independently maintained. [Wordmark source and attribution](https://commons.wikimedia.org/wiki/File:Eindhoven_University_of_Technology_logo_new.svg)
